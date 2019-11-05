@@ -11,7 +11,6 @@ void blank() {
   for (i = 0; i < 27; i++) {
     library[i] = NULL;
   }
-  printf("Library is blank\n");
 }
 
 int get_ind(char letter) {

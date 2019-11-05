@@ -89,6 +89,8 @@ void main() {
 
   printf("Testing blank (helper function, sets all elements of library to null)\n");
   blank();
+  printf("Library:\n");
+  print_all();
   printf("-----------------\n");
 
   printf("Testing add\n");
